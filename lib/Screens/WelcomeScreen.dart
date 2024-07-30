@@ -15,19 +15,18 @@ class WelcomeScreen extends StatelessWidget {
               children: [
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height,
+                  height: MediaQuery.of(context).size.height / 1.6,
                   decoration: BoxDecoration(
                     color: Colors.white,
-
                   ),
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height,
+                  height: MediaQuery.of(context).size.height / 1.6,
                   decoration: BoxDecoration(
                     color: Colors.blue,
-                    borderRadius: BorderRadius.only(bottomRight: Radius.circular(70)),
-
+                    borderRadius:
+                        BorderRadius.only(bottomRight: Radius.circular(70)),
                   ),
                   child: Center(),
                 ),
