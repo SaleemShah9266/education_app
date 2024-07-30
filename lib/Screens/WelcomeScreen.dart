@@ -29,7 +29,8 @@ class WelcomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.only(bottomRight: Radius.circular(70)),
 
                   ),
-                ), Checkbox(value: value, onChanged: onChanged)
+                  child: Center(),
+                ),
               ],
             )
           ],
