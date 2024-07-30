@@ -28,7 +28,12 @@ class WelcomeScreen extends StatelessWidget {
                     borderRadius:
                         BorderRadius.only(bottomRight: Radius.circular(70)),
                   ),
-                  child: Center(),
+                  child: Center(
+                    child: Image.asset(
+                      "assets/images/aa.png",
+                      scale: 0.8,
+                    ),
+                  ),
                 ),
               ],
             )
