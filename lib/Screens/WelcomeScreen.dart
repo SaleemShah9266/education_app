@@ -27,9 +27,9 @@ class WelcomeScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius: BorderRadius.only(bottomRight: Radius.circular(70)),
-                    
+
                   ),
-                )
+                ), Checkbox(value: value, onChanged: onChanged)
               ],
             )
           ],
