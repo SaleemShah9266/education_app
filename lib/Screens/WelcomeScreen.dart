@@ -1,3 +1,4 @@
+import 'package:education_app/Screens/Home_Screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -98,7 +99,13 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HomeScreen(),
+                              ));
+                        },
                         child: Text(
                           "Get Start",
                           style: TextStyle(
