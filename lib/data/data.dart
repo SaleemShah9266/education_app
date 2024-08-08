@@ -166,23 +166,74 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of React Native
+            Question(
+              'What is React Native?',
+              [
+                'A framework for building native apps using React',
+                'A programming language',
+                'A UI library',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'Which language is primarily used in React Native?',
+              ['JavaScript', 'Python', 'Dart', 'C#'],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 2',
           questions: [
-            // Add questions for Quiz Set 2 of React Native
+            Question(
+              'What is the purpose of JSX in React Native?',
+              [
+                'To describe what the UI should look like',
+                'To manage state',
+                'To define app routing',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'How do you style components in React Native?',
+              ['Using StyleSheet', 'Using CSS', 'Using HTML', 'Using XML'],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 3',
           questions: [
-            // Add questions for Quiz Set 3 of React Native
+            Question(
+              'What is the purpose of the `useState` hook in React Native?',
+              [
+                'To manage state in functional components',
+                'To navigate between screens',
+                'To perform side effects',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'What is the difference between React and React Native?',
+              [
+                'React is for web, React Native is for mobile',
+                'React is a programming language, React Native is a framework',
+                'There is no difference',
+                'None of the above'
+              ],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
       ],
     ),
+
     Category(
       name: 'Python',
       image: 'assets/images/python.png',
@@ -190,23 +241,74 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of Python
+            Question(
+              'What is Python?',
+              [
+                'A programming language',
+                'A web framework',
+                'A database',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'What is the purpose of `def` keyword in Python?',
+              [
+                'To define a function',
+                'To define a class',
+                'To create a variable',
+                'None of the above'
+              ],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 2',
           questions: [
-            // Add questions for Quiz Set 2 of Python
+            Question(
+              'What is a list in Python?',
+              [
+                'A collection of ordered items',
+                'A collection of unordered items',
+                'A type of function',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'Which of the following is used to create a loop in Python?',
+              ['for', 'while', 'both', 'None of the above'],
+              2,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 3',
           questions: [
-            // Add questions for Quiz Set 3 of Python
+            Question(
+              'What is the purpose of `import` statement in Python?',
+              [
+                'To include external libraries or modules',
+                'To create a function',
+                'To define a variable',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'What is the output of `print(2**3)` in Python?',
+              ['8', '6', '9', 'None of the above'],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
       ],
     ),
+
     // Add more categories with quiz sets and questions
     Category(
       name: 'C#',
@@ -215,23 +317,72 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of Python
+            Question(
+              'What is C#?',
+              [
+                'A programming language',
+                'A database',
+                'A web framework',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'What is the purpose of `class` keyword in C#?',
+              [
+                'To define a new class',
+                'To define a function',
+                'To declare a variable',
+                'None of the above'
+              ],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 2',
           questions: [
-            // Add questions for Quiz Set 2 of Python
+            Question(
+              'What is a namespace in C#?',
+              [
+                'A container for classes and other types',
+                'A type of function',
+                'A variable scope',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'Which of the following is used to create a loop in C#?',
+              ['for', 'foreach', 'both', 'None of the above'],
+              2,
+            ),
+            // Add more questions here
           ],
         ),
         QuizSet(
           name: 'Quiz Set 3',
           questions: [
-            // Add questions for Quiz Set 3 of Python
+            Question(
+              'What is the purpose of `using` statement in C#?',
+              [
+                'To include namespaces',
+                'To create a function',
+                'To define a variable',
+                'None of the above'
+              ],
+              0,
+            ),
+            Question(
+              'What is the output of `Console.WriteLine(5 + 3)` in C#?',
+              ['8', '6', '9', 'None of the above'],
+              0,
+            ),
+            // Add more questions here
           ],
         ),
       ],
-    ),
-    // Add more categories with quiz sets and questions
+    )
   ];
 }
