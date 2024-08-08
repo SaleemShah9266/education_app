@@ -45,7 +45,7 @@ class CategorySetScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Test Your Skill",
+                      "${category.name}Quiz",
                       style: TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.w500,
