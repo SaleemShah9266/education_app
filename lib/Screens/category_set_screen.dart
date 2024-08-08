@@ -68,7 +68,8 @@ class CategorySetScreen extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => QuizScreen(quizSet: quizSet)));
+                                  builder: (context) =>
+                                      QuizScreen(quizSet: quizSet)));
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width,
